@@ -126,14 +126,11 @@ To reproduce this benchmark on your own machine, follow these steps:
     Navigate to the root of your project and run the following command:
 
     ```bash
-    cargo bench --profile release
+    cargo criterion --bench string_refcell_comparison
     ```
 
 ## 5. Experimental Results
-* **String Clone and Modify**:  *&lt;여기 실제 실행 결과(평균 시간)를 ns 또는 us 단위로 적으세요.>*
-* **Rc\<RefCell> Clone and Modify:** *&lt;여기 실제 실행 결과(평균 시간)를 ns 또는 us 단위로 적으세요.>*
 
-On the Apple M4 Pro, 16GB RAM, macOS Sonoma 14.4.1 with rustc 1.84.1 (e71f9a9a9 2025-01-27)**
 ```bash
 String vs Rc<RefCell>/String Clone/1000000                                                                             
                         time:   [44.137 µs 44.404 µs 44.693 µs]
@@ -142,6 +139,8 @@ String vs Rc<RefCell>/Rc<RefCell> Clone/1000000
                         time:   [21.017 µs 21.318 µs 21.576 µs]
                         thrpt:  [43.165 GiB/s 43.686 GiB/s 44.314 GiB/s]
 ```
+
+On the Apple M4 Pro, 16GB RAM, macOS Sonoma 14.4.1 with rustc 1.84.1 (e71f9a9a9 2025-01-27)**
 
 ## 6. Significance
 

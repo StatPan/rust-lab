@@ -25,9 +25,9 @@ This study conducted the following experiments to compare and analyze the perfor
 *   **Metrics:** Time taken for cloning operations (in microseconds or nanoseconds)
 *   **Experimental Environment:**
     *   CPU: Apple M4 Pro
-    *   RAM: (Please specify your RAM capacity)
-    *   OS: macOS (Please specify your macOS version)
-    *   Rust Version: (Please specify your Rust compiler version)
+    *   RAM: 16G
+    *   OS: sonoma
+    *   Rust Version: rustc 1.84.1 (e71f9a9a9 2025-01-27)
 *   **Benchmarking Tool:** Criterion
 
 ## 4. Experimental Setup (Run the Benchmark Yourself!)

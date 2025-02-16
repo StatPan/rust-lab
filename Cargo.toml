@@ -1,2 +1,3 @@
 [workspace]
-members = ["clone_comparison"]
+members = ["clone_comparison", "string_refcell_benchmark"]
+resolver = "2"

@@ -118,6 +118,9 @@ To reproduce this benchmark on your own machine, follow these steps:
     The benchmark results will be printed to the console.  An HTML report will also be generated in the `target/criterion` directory.
 
 ## 5. Experimental Results
+
+![experimental result chart](./chart.png)
+
 ```bash
 String vs Rc Clone/String Clone/1000000                                                                             
                         time:   [14.733 µs 14.852 µs 15.122 µs]

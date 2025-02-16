@@ -131,6 +131,8 @@ To reproduce this benchmark on your own machine, follow these steps:
 
 ## 5. Experimental Results
 
+![experimental result chart](./chart.png)
+
 ```bash
 String vs Rc<RefCell>/String Clone/1000000                                                                             
                         time:   [44.137 µs 44.404 µs 44.693 µs]

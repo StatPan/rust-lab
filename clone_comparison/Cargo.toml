@@ -1,0 +1,11 @@
+[package]
+name = "clone_comparison"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+criterion = "0.5.1"
+
+[[bench]]
+name = "string_rc_clone"  # 벤치마크 파일 이름과 일치
+harness = false
